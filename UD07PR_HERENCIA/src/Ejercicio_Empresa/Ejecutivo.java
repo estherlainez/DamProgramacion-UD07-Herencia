@@ -3,14 +3,13 @@ package Ejercicio_Empresa;
 public class Ejecutivo extends Empleado{
 	 private int presupuesto;
 
-	public Ejecutivo(Empresa dE, String n, int s) {
+	public Ejecutivo(Empresa dE, String n, int s,int p) {
 		super(dE, n, s);
+		this.presupuesto=p;
 		
 	}
-	public Ejecutivo(Empresa dE, String n, int s, int nE) {
-		super(dE, n, s,nE);
-		
-	}
+
+
 	
 	public int getPresupuesto() {
 		return presupuesto;
@@ -22,8 +21,8 @@ public class Ejecutivo extends Empleado{
 		return presupuesto;
 	}
 	
-	public void ascender(Empresa dE, String n, int s) {
-		Ejecutivo ej=new Ejecutivo ( dE, n, s);
+	public void ascender(Empresa dE, String n, int s,int p) {
+		Ejecutivo ej=new Ejecutivo ( dE, n, s,p);
 	}
 	@Override
 	public String toString() {

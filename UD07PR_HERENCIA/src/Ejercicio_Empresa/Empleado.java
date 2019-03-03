@@ -7,6 +7,7 @@ public class Empleado {
 	protected int sueldo;
 	private int numOp;
 	static int numeroOperario=1;
+	
 	public Empleado(Empresa dE ,String n, int s) {
 		this.datosEmpresa=dE;
 		this.nombre=n;
@@ -15,10 +16,10 @@ public class Empleado {
 		numeroOperario++;
 	}
 	
-	protected Empleado(Empresa dE, String n, int s, int nu) {
+	protected Empleado(Empresa dE, String n) {
 		this.datosEmpresa=dE;
 		this.nombre=n;
-		this.sueldo=s;
+		this.sueldo=1000;
 		this.numOp=numeroOperario;
 		numeroOperario++;
 	}
@@ -50,6 +51,8 @@ public class Empleado {
 		return "Empleado [datosEmpresa=" + datosEmpresa + ", nombre=" + nombre + ", sueldo=" + sueldo + ", numOp="
 				+ numOp + "]";
 	}
+
+	
 
 
 	

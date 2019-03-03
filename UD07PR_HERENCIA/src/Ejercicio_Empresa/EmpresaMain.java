@@ -48,8 +48,8 @@ public class EmpresaMain {
 			System.out.println("Elija la opcion que desea realizar");
 			System.out.println("1.AÑADIR UN NUEVO EMPLEADO");
 			System.out.println("2.DESPEDIR UN EMPLEADO");
-			System.out.println("4.AUMENTAR EL SUELDO A UN EMPLEADO");
-			System.out.println("5.SALIR");
+			System.out.println("3.AUMENTAR EL SUELDO A UN EMPLEADO");
+			System.out.println("4.SALIR");
 			opcion=teclado.nextInt();
 			switch(opcion) {
 			case 1:
