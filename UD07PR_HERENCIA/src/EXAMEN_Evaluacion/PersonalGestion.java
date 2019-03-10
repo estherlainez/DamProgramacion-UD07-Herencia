@@ -1,5 +1,11 @@
 package EXAMEN_Evaluacion;
-
+/**
+ * @return
+ * @author Esther
+ * Este era el examen de evaluacion de la segunda evaluacion de programacion
+ *  y dejamos alguna informacion
+ *
+ */
 public class PersonalGestion extends Persona{
 
 	String posicion;
