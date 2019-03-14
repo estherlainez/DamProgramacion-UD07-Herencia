@@ -11,6 +11,10 @@ public class Profesor extends Persona {
 	
 	}
 	@Override
+	/**
+	 * @return horasAño nos devuelve el total de horas al año de cada trabajador
+	 * @param horas, le damos las horas trabajadas al dia
+	 */
 	public double CalcularHoras(int horas) {
 		double horasAño=horas*5*11;
 		return horasAño;

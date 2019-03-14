@@ -1,5 +1,8 @@
 package EXAMEN_Evaluacion;
-
+/**
+ * @author Esther
+ *
+ */
 public class Estudiante extends Persona{
 	String nif;
 	int edad;
@@ -48,7 +51,12 @@ public class Estudiante extends Persona{
 		Estudiante.codigo = codigo;
 	}
 
+	
 	@Override
+	/**
+	 * @return nos devolvera las horas al año que trabaja cada uno
+	 * @param pasamos las horas del dia
+	 */
 	public double CalcularHoras(int horas) {
 		double horasAño=horas*5*10;
 		return horasAño;

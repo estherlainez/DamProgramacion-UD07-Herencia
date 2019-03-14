@@ -16,6 +16,10 @@ public class PersonalGestion extends Persona{
 		this.posicion=p;
 	}
 	@Override
+	/**
+	 * @param horas sera las horas que trabaja dia a dia cada uno
+	 * @return horasAño que sera las horas que trabaja al año cada uno
+	 */
 	public double CalcularHoras(int horas) {
 		double horasAño=horas*5*11;
 		return horasAño;

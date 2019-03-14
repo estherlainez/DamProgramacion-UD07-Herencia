@@ -1,5 +1,8 @@
 package EXAMEN_Evaluacion;
-
+/**
+ * @author Esther
+ *Esta es una clase abstracta que a partir de ella vamos a crear otras clases para trabajar
+ */
 public  abstract class Persona {
 
 	String nombre;
